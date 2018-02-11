@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</head>
+
+<body background="assets/images/dark_wall.png">
+    <div class="container-fluid">
+        <div class="header">
+            <h1 class+ "display-1">Crystal Collector</h1>
+        </div>
+        <hr>
+        <div class="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystas below. By clicking on a crystal, you will add a specific amound of points to your total
+                score
+            </p>
+            <p>You win the game by matching your total score to the random number, you lose the game if your total score goes
+                above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-3 gems">
+                <img src="assets/images/emerald.jpg" class=gemImage id="one" alt="Emerald" width=200px height=200px>
+            </div>
+            <div class="col-md-3 gems">
+                <img src="assets/images/quartz.jpg" class=gemImage id="two" alt="Quartz" width=200px height=200px>
+            </div>
+            <div class="col-md-3 gems">
+                <img src="assets/images/ruby.jpg" class=gemImage id="three" alt="Ruby" width=200px height=200px>
+            </div>
+            <div class="col-md-3 gems">
+                <img src="assets/images/sapphire.jpg" class=gemImage id="four" alt="Sapphire" width=200px height=200px>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="card-columns">
+            <div class="card text-center">
+                <h5 class="card-title">Number to Get</h5>
+                <p id="randomNumber"><br><br></p>
+            </div>
+            <div class="card text-center">
+                <h5 class="card-title">Your Total Guess</h5>
+                    <p id="finalTotal"><br></p>
+            </div>
+            <div class="card text-center">
+                <h5 class="card-title">Wins</h5>
+                    <p id="numberWins"><br><br></p>
+            </div>
+            <div class="card text-center">
+                <h5 class="card-title">Losses</h5>
+                    <p id="numberLosses"><br><br></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
