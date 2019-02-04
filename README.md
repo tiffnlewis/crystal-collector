@@ -1,4 +1,6 @@
-# week-4-game
+# Crystal Collector
+
+https://tiffnlewis.github.io/crystal-collector/
 
 This game is a random number generator in which the user tries to match the number the computer guesses by adding together different amounts hidden by the jewel images. 
 
